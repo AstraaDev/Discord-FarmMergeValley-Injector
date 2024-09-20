@@ -5,7 +5,7 @@
 <h1 align="center">[Discord] - FarmMergeValley Injector</h1>
 
 <p align="left">
-  FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley discord game. This project follows on from [wooslow](https://github.com/wooslow/discord-farm-merge-valley-hack)'s repositorie on the same subject. Perform these steps preferably from a Google Chrome browser. There is currently no guarantee that these methods will work on other browsers.
+  FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley discord game. This project follows on from @wooslow's repositorie on the same subject. Perform these steps preferably from a Google Chrome browser. There is currently no guarantee that these methods will work on other browsers.
 </p>
 
 
@@ -85,6 +85,7 @@ this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="">
+
 - Return to the game and place a crate *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
@@ -116,10 +117,7 @@ Comming soon.
 Comming soon.
 
 ## [METHOD 4] : spawnUpgradeCard
-<details> 
-<summary>Comming soon</summary>
 Comming soon.
-</details>
 
 ## [METHOD 5] : spawnBubbledObject
 <details>
@@ -167,15 +165,14 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
-
 - There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="">
+
 - Return to the game and place a crate *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
 ```
-
 - You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again *(see image below)*
 <img src="">
 
@@ -191,7 +188,6 @@ let spawnBubbledObject = (target) => {
     });
 }
 ```
-
 You're all set! Now all you have to do is enter the following command in the **CONSOLE** tab and press `ENTER` :
 ```js
 spawnBubbledObject("item");
@@ -199,10 +195,7 @@ spawnBubbledObject("item");
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method.
 
 ## [METHOD 6] : setLuckyMergeChance
-<details> 
-<summary>Comming soon</summary>
 Comming soon.
-</details>
 
 ### Additional Informations
 Discord :
