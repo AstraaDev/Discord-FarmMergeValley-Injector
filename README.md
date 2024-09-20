@@ -19,10 +19,10 @@ By using this Tool, you agree that you hold responsibility and accountability of
 ## Features
 
 - [x] - [giveInventoryItem](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Obtain any object in unlimited quantities.
-- [ ] - [removeHeavyObj](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Remove heavy objects (trees and stones) from the map.
+- [ ] - [removeHeavyObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Remove heavy objects (trees and stones) from the map.
 - [ ] - [spawnUpgradeCard](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn an upgrade card.
 - [x] - [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object (gift, coins, gems, energy, crates, etc.).
-- [ ] - [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
+- [x] - [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
 
 ## Common part of each method
 Each of the methods described here works in the same way. The game needs to be “paused” at the right moment to access certain elements that are normally blocked. The differences between these methods are the information to be retrieved, the precise moment to break the script, the action to be taken to break the script, etc...
@@ -109,7 +109,7 @@ giveInventoryItem("item", amount);
 ```
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method, and `amount` with the amount you want.
 
-## [METHOD 2] : removeHeavyObj
+## [METHOD 2] : removeHeavyObject
 Comming soon.
 
 ## [METHOD 3] : spawnUpgradeCard
@@ -190,7 +190,35 @@ spawnBubbledObject("item");
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method.
 
 ## [METHOD 5] : setLuckyMergeChance
-Comming soon.
+Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
+
+#### Injection
+- In `main.js` file,
+- Search the file (by pressing `CTRL`+`F`)
+- Write the following command and press `ENTER` :
+```js
+this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
+```
+- There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
+
+- Return to the game and place a crate *(the game should stop again)*
+- In the **CONSOLE** tab, write the following command and press `ENTER` :
+```js
+worldServices = this.services
+```
+- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
+
+#### Setting up the function
+- In the **CONSOLE** tab, write the following command and press `ENTER` :
+```js
+let setLuckyMergeChance = (percentage) => worldServices.mapGridView._view.parent.parent.parent._systems.find(x => x._luckyMergeChance)._luckyMergeChance = percentage;
+```
+You're all set! Now all you have to do is enter the following command in the **CONSOLE** tab and press `ENTER` :
+```js
+setLuckyMergeChance(percentage);
+```
+Don't forget to replace the `percentage` argument with a number between 0 and 100. Setting `100` as an argument means that the lucky merge will always take place, and setting `0` as an argument means that the lucky merge will never take place (the default value is 5).
 
 ### Additional Informations
 Discord :
