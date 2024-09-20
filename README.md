@@ -11,7 +11,7 @@
 
 ## Disclaimer
 
-|FMV Injector was made for Educational purposes|
+|FMV Injector was made for Educational purposes   |
 |-------------------------------------------------|
 This project was created only for good purposes and personal use.
 By using this Tool, you agree that you hold responsibility and accountability of any consequences caused by your actions.
@@ -20,9 +20,8 @@ By using this Tool, you agree that you hold responsibility and accountability of
 
 - [x] - [giveInventoryItem](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Obtain any object in unlimited quantities.
 - [ ] - [removeHeavyObj](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Remove heavy objects (trees and stones) from the map.
-- [ ] - [spawnCollectable](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a collectible item (coins, gems, energy, etc.).
 - [ ] - [spawnUpgradeCard](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn an upgrade card.
-- [ ] - [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object (gift, coins, gems, energy, crates, etc.).
+- [x] - [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object (gift, coins, gems, energy, crates, etc.).
 - [ ] - [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
 
 ## Common part of each method
@@ -36,10 +35,11 @@ Even if these parts change depending on the method, the beginning remains the sa
 ```js
 Function.prototype.constructor = function() {};
 ```
-- Click on the `Resume script execution` button *(see image below)*
-<img src="">
+- Click on the `Resume script execution` button *(see image below) (it's the blue button)*
+<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286722534905086073/image.png?ex=66eef13e&is=66ed9fbe&hm=111689ea87b329f10dd1b216424b619a0a4f6943c0304568bc4d2f2548d4aadb&" width="200">
+
 - In the **SOURCE** tab, find the file named main.js located at `top/1187.discordsays.com/1187.discordsays.com/main.1401.js` *(see image below)*
-<img src="">
+<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286723565562888222/image.png?ex=66eef234&is=66eda0b4&hm=821455387248d83f3c38ef95ba0b67a3aae0b7cfc00a6f335565334b5bb6451f&" width="300">
 
 From now on, the next steps will depend on each method. Make sure you've followed exactly the steps described in this section before moving on.
 
@@ -84,15 +84,14 @@ Make sure you've followed exactly the steps described in the “Common part of e
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="">
+<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
 
 - Return to the game and place a crate *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
 ```
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again *(see image below)*
-<img src="">
+- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
 
 #### Setting up the function
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
@@ -113,13 +112,10 @@ Don't forget to replace the `item` argument with one of the parameters in the `W
 ## [METHOD 2] : removeHeavyObj
 Comming soon.
 
-## [METHOD 3] : spawnCollectable
+## [METHOD 3] : spawnUpgradeCard
 Comming soon.
 
-## [METHOD 4] : spawnUpgradeCard
-Comming soon.
-
-## [METHOD 5] : spawnBubbledObject
+## [METHOD 4] : spawnBubbledObject
 <details>
 <summary>What you can get with this method ?</summary>
   
@@ -166,15 +162,14 @@ Make sure you've followed exactly the steps described in the “Common part of e
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="">
+<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
 
 - Return to the game and place a crate *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
 ```
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again *(see image below)*
-<img src="">
+- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
 
 #### Setting up the function
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
@@ -194,7 +189,7 @@ spawnBubbledObject("item");
 ```
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method.
 
-## [METHOD 6] : setLuckyMergeChance
+## [METHOD 5] : setLuckyMergeChance
 Comming soon.
 
 ### Additional Informations
