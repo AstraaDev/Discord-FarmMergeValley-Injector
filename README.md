@@ -20,7 +20,7 @@ By using this Tool, you agree that you hold responsibility and accountability of
 
 - [x] - [giveInventoryItem](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Obtain any object in unlimited quantities.
 - [x] - [spawnUpgradeCard](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn an upgrade card.
-- [x] - [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object (gift, coins, gems, energy, crates, chests, keys, decorations, etc.).
+- [x] - [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object (gift, coins, gems, energy, crates, chests, keys, decorations).
 - [x] - [removeAllObstacles](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - remove all obstacles (trees and stones) from the map.
 - [x] - [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
 
@@ -44,9 +44,6 @@ Function.prototype.constructor = function() {};
 From now on, the next steps will depend on each method. Make sure you've followed exactly the steps described in this section before moving on.
 
 ## [METHOD 1] : giveInventoryItem
-<details>
-<summary>Click to expand the information</summary>
-  
 <details>
 <summary>What you can get with this method ?</summary>
   
@@ -76,6 +73,9 @@ From now on, the next steps will depend on each method. Make sure you've followe
 | `avocado`       | Avocado               |
 | `truffle`       | Truffle               |
 </details>
+
+<details>
+<summary>Click to expand the information</summary>
 
 Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
 
@@ -144,31 +144,33 @@ var _0x4cae7e = _0x162b74;
 
 ## [METHOD 3] : spawnBubbledObject
 <details>
-<summary>Click to expand the information</summary>
-  
-<details>
 <summary>What you can get with this method ?</summary>
   
-| Parameter       | Is reward | Description                      |
-| :-------------- | :-------- | :------------------------------- |
-| `coin_1`        | True      | Coins (up to coin_8)             |
-| `gem_1`         | True      | Gems (up to gem_6)               |
-| `crate_1`       | True      | Crates (up to crate_2)           |
-| `energy_1`      | True      | Energy (up to energy_4)          |
-| `wood_1`        | True      | Wood (up to wood_8)              |
-| `stone_1`       | True      | Stone (up to stone_8)            |
-| `tool_1`        | True      | Tool (up to tool_10)             |
-| `flower_1`      | True      | Flower (up to flower_10)         |
-| `greenhouse_1`  | True      | Greenhouse (up to greenhouse_12) |
-| `reward_crate_daily_bonus`  | True                             | Daily bonus gift |
-| `reward_crate_key_bronze`   | True                             | Bonze key        |
-| `reward_crate_key_silver`   | True                             | Silver key       |
-| `reward_crate_key_gold`     | True                             | Gold key         |
-| `reward_crate_bronze`       | True                             | Bronze chest     |
-| `reward_crate_silver`       | True                             | Silver chest     |
-| `reward_crate_gols`         | True                             | Gold chest       |
-| `golden_carrot` | True      | Golden carrot                    |
+| Parameter       | Description                      |
+| :-------------- | :------------------------------- |
+| `coin_1`        | Coins (up to coin_8)             |
+| `gem_1`         | Gems (up to gem_6)               |
+| `crate_1`       | Crates (up to crate_2)           |
+| `energy_1`      | Energy (up to energy_4)          |
+| `wood_1`        | Wood (up to wood_8)              |
+| `stone_1`       | Stone (up to stone_8)            |
+| `tool_1`        | Tool (up to tool_10)             |
+| `flower_1`      | Flower (up to flower_10)         |
+| `greenhouse_1`  | Greenhouse (up to greenhouse_12) |
+| `reward_crate_daily_bonus`       | Daily bonus gift    |
+| `reward_crate_key_bronze`        | Bonze key           |
+| `reward_crate_key_silver`        | Silver key          |
+| `reward_crate_key_gold`          | Gold key            |
+| `reward_crate_bronze`            | Bronze chest        |
+| `reward_crate_silver`            | TSilver chest       |
+| `reward_crate_gold`              | Gold chest          |
+| `golden_carrot`                  | Golden carrot       |
+| `reward_crate_key_golden_carrot` | Golden carrot key   |
+| `reward_crate_golden_carrot`     | Golden carrot chest |
 </details>
+
+<details>
+<summary>Click to expand the information</summary>
 
 Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
 
