@@ -86,10 +86,10 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
-- There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
 
-- Return to the game and place a crate *(the game should stop again)*
+- Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
@@ -125,7 +125,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-var _0x4cae7e = _0x162b74;
+var _0x932f95 = a1_0x2141;
 ```
 - Set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="https://cdn.discordapp.com/attachments/1079127307656122501/1287316143928770621/image.png?ex=66f11a15&is=66efc895&hm=020dab4560266d509579a258e74ac3d1fe8c21eaf305d803e3ee08243e736010&" width="300">
@@ -181,10 +181,10 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
-- There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
 
-- Return to the game and place a crate *(the game should stop again)*
+- Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
@@ -224,10 +224,10 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
-- There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
 
-- Return to the game and place a crate *(the game should stop again)*
+- Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
@@ -254,10 +254,10 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
-- There will normally be 4 results. Navigate to the third result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
 
-- Return to the game and place a crate *(the game should stop again)*
+- Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
