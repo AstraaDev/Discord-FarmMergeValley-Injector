@@ -36,10 +36,10 @@ Even if these parts change depending on the method, the beginning remains the sa
 Function.prototype.constructor = function() {};
 ```
 - Click on the `Resume script execution` button *(see image below) (it's the blue button)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286722534905086073/image.png?ex=66eef13e&is=66ed9fbe&hm=111689ea87b329f10dd1b216424b619a0a4f6943c0304568bc4d2f2548d4aadb&" width="200">
+<img src="img/FMV_1.png" width="200">
 
 - In the **SOURCE** tab, find the file named main.js located at `top/1187.discordsays.com/1187.discordsays.com/main.1401.js` *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286723565562888222/image.png?ex=66eef234&is=66eda0b4&hm=821455387248d83f3c38ef95ba0b67a3aae0b7cfc00a6f335565334b5bb6451f&" width="300">
+<img src="img/FMV_2.png" width="300">
 
 From now on, the next steps will depend on each method. Make sure you've followed exactly the steps described in this section before moving on.
 
@@ -87,7 +87,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
+<img src="img/FMV_3.png" width="400">
 
 - Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
@@ -128,14 +128,14 @@ Make sure you've followed exactly the steps described in the “Common part of e
 var _0x932f95 = a1_0x2141;
 ```
 - Set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1287316143928770621/image.png?ex=66f11a15&is=66efc895&hm=020dab4560266d509579a258e74ac3d1fe8c21eaf305d803e3ee08243e736010&" width="300">
+<img src="img/FMV_6.png" width="300">
 
 - Return to the game and merge items *(the game should stop again)*
 - In the **SOURCE** tab, find the loot section at `Local/this/_data/loot` *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1287315989834235964/image.png?ex=66f119f1&is=66efc871&hm=82a5a1bcc6e6842ba8643b1f49e037abdc91d0e532cd051a3c18a36bdc956a31&" width="300">
+<img src="img/FMV_4.png" width="300">
 
 - Replace one of the elements with `“upgrade_card_1”`, `“upgrade_card_2”` or `“upgrade_card_3”` to suit your needs *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1287316020448595988/image.png?ex=66f119f8&is=66efc878&hm=97b93f52cf2bc2c658e6306c26b0cd0704a8e80901fb09866c45566729e5aeab&" width="300">
+<img src="img/FMV_5.png" width="300">
 
 - You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
 - All you have to do now is click on the merged item in the game, and the upgrade card should appear.
@@ -182,7 +182,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
+<img src="img/FMV_3.png" width="400">
 
 - Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
@@ -225,7 +225,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
+<img src="img/FMV_3.png" width="400">
 
 - Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
@@ -255,7 +255,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1286724033706070066/image.png?ex=66eef2a3&is=66eda123&hm=53c9afe455aa09cfdb2cae701d04c97741549e7128ec99f1218f64eca415dc31&" width="400">
+<img src="img/FMV_3.png" width="400">
 
 - Return to the game and move or remove an object *(the game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
