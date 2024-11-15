@@ -116,7 +116,7 @@ giveInventoryItem("item", amount);
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method, and `amount` with the amount you want.
 </details>
 
-## [METHOD 2] : spawnUpgradeCard (found by @frightfully6610)
+## [METHOD 2] : spawnUpgradeCard
 <details>
 <summary>Click to expand the information</summary>
 Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
@@ -126,7 +126,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-var _0x932f95 = a1_0x2141;
+this['_forc' + 'edLoo' + 't']['lengt' + 'h']
 ```
 - Set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/FMV_6.png" width="300">
