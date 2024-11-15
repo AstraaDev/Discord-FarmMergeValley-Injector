@@ -6,6 +6,7 @@
 
 <p align="left">
   FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley discord game. This project follows on from @wooslow's repositorie on the same subject. Perform these steps preferably from a Google Chrome browser. There is currently no guarantee that these methods will work on other browsers.
+  These methods go against the rules of the game's developers, and waves of bans have already occurred. I am in no way responsible for your actions. Please use this tool with full knowledge of the risks involved.
 </p>
 
 
@@ -84,9 +85,9 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
+this['servi' + 'ces']['mapGr' + 'id']['setCo'
 ```
-- There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 2 results. Navigate to the second result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/FMV_3.png" width="400">
 
 - Return to the game and move or remove an object *(the game should stop again)*
@@ -179,9 +180,9 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
+this['servi' + 'ces']['mapGr' + 'id']['setCo'
 ```
-- There will normally be 1 results. Navigate to the result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 1 results. Navigate to the second result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/FMV_3.png" width="400">
 
 - Return to the game and move or remove an object *(the game should stop again)*
