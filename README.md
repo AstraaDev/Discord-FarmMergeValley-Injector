@@ -149,43 +149,43 @@ this['_forc' + 'edLoo' + 't']['lengt' + 'h']
 
 ### Consumable
 
-| Parameter                         | Description                      |
-| :-------------------------------- | :------------------------------- |
-| `ticket`                          | Ticket                           |
-| `coin_1`                          | Coins (up to coin_8)             |
-| `gem_1`                           | Gems (up to gem_6)               |
-| `crate_1`                         | Crates (up to crate_2)           |
-| `energy_1`                        | Energy (up to energy_4)          |
-| `wood_1`                          | Wood (up to wood_8)              |
-| `stone_1`                         | Stone (up to stone_8)            |
-| `tool_1`                          | Tool (up to tool_10)             |
-| `flower_1`                        | Flower (up to flower_10)         |
-| `sapling_1`                       | Sapling (up to sapling_3)        |
-| `greenhouse_1`                    | Greenhouse (up to greenhouse_12) |
-| `toolbox_small`                   | Small toolbox                    |
-| `toolbox_medium`                  | Medium toolbox                   |
-| `toolbox_large`                   | Large toolbox                    |
-| `rock_small`                      | Small rock                       |
-| `rock_medium`                     | Medium rock                      |
-| `rock_large`                      | Large rock                       |
-| `tree_small`                      | Small tree                       |
-| `tree_medium`                     | Medium tree                      |
-| `tree_large`                      | Large tree                       |
-| `reward_crate_daily_bonus`        | Daily bonus gift                 |
-| `reward_crate_key_bronze`         | Bonze key                        |
-| `reward_crate_key_silver`         | Silver key                       |
-| `reward_crate_key_gold`           | Gold key                         |
-| `reward_crate_bronze`             | Bronze chest                     |
-| `reward_crate_silver`             | Silver chest                     |
-| `reward_crate_gold`               | Gold chest                       |
-| `golden_carrot`                   | Golden carrot                    |
-| `reward_crate_key_golden_carrot`  | Golden carrot key                |
-| `reward_crate_golden_carrot`      | Golden carrot chest              |
-| `golden_pumpkin`                  | Golden pumpkin                   |
-| `reward_crate_key_golden_pumpkin` | Golden pumpkin key               |
-| `reward_crate_golden_pumpkin`     | Golden pumpkin chest             |
-| `reward_crate_key_jingleballs`    | Jingleballs key                  |
-| `reward_crate_jingleballs`        | Jingleballs chest                |
+| Parameter                         | Description                      | Image                                                                                    |
+| :-------------------------------- | :------------------------------- | :--------------------------------------------------------------------------------------- |
+| `ticket`                          | Ticket                           | <img src="img/game_objects/consumable/ticket.png" width="50" />                          |
+| `coin_1`                          | Coins (up to coin_8)             | <img src="img/game_objects/consumable/coin_1.png" width="50" />                          |
+| `gem_1`                           | Gems (up to gem_6)               | <img src="img/game_objects/consumable/gem_1.png" width="50" />                           |
+| `crate_1`                         | Crates (up to crate_2)           | <img src="img/game_objects/consumable/crate_1.png" width="50" />                         |
+| `energy_1`                        | Energy (up to energy_4)          | <img src="img/game_objects/consumable/energy_1.png" width="50" />                        |
+| `wood_1`                          | Wood (up to wood_8)              | <img src="img/game_objects/consumable/wood_1.png" width="50" />                          |
+| `stone_1`                         | Stone (up to stone_8)            | <img src="img/game_objects/consumable/stone_1.png" width="50" />                         |
+| `tool_1`                          | Tool (up to tool_10)             | <img src="img/game_objects/consumable/tool_1.png" width="50" />                          |
+| `flower_1`                        | Flower (up to flower_10)         | <img src="img/game_objects/consumable/flower_1.png" width="50" />                        |
+| `sapling_1`                       | Sapling (up to sapling_3)        | <img src="img/game_objects/consumable/sapling_1.png" width="50" />                       |
+| `greenhouse_1`                    | Greenhouse (up to greenhouse_12) | <img src="img/game_objects/consumable/greenhouse_1.png" width="50" />                    |
+| `toolbox_small`                   | Small toolbox                    | <img src="img/game_objects/consumable/toolbox_small.png" width="50" />                   |
+| `toolbox_medium`                  | Medium toolbox                   | <img src="img/game_objects/consumable/toolbox_medium.png" width="50" />                  |
+| `toolbox_large`                   | Large toolbox                    | <img src="img/game_objects/consumable/toolbox_large.png" width="50" />                   |
+| `rock_small`                      | Small rock                       | <img src="img/game_objects/consumable/rock_small.png" width="50" />                      |
+| `rock_medium`                     | Medium rock                      | <img src="img/game_objects/consumable/rock_medium.png" width="50" />                     |
+| `rock_large`                      | Large rock                       | <img src="img/game_objects/consumable/rock_large.png" width="50" />                      |
+| `tree_small`                      | Small tree                       | <img src="img/game_objects/consumable/tree_small.png" width="50" />                      |
+| `tree_medium`                     | Medium tree                      | <img src="img/game_objects/consumable/tree_medium.png" width="50" />                     |
+| `tree_large`                      | Large tree                       | <img src="img/game_objects/consumable/tree_large.png" width="50" />                      |
+| `reward_crate_daily_bonus`        | Daily bonus gift                 | <img src="img/game_objects/consumable/reward_crate_daily_bonus.png" width="50" />        |
+| `reward_crate_key_bronze`         | Bronze key                       | <img src="img/game_objects/consumable/reward_key_bronze.png" width="50" />               |
+| `reward_crate_key_silver`         | Silver key                       | <img src="img/game_objects/consumable/reward_key_silver.png" width="50" />               |
+| `reward_crate_key_gold`           | Gold key                         | <img src="img/game_objects/consumable/reward_key_gold.png" width="50" />                 |
+| `reward_crate_bronze`             | Bronze chest                     | <img src="img/game_objects/consumable/reward_crate_chest_bronze.png" width="50" />       |
+| `reward_crate_silver`             | Silver chest                     | <img src="img/game_objects/consumable/reward_crate_chest_silver.png" width="50" />       |
+| `reward_crate_gold`               | Gold chest                       | <img src="img/game_objects/consumable/reward_crate_chest_gold.png" width="50" />         |
+| `golden_carrot`                   | Golden carrot                    | <img src="img/game_objects/consumable/golden_carrot.png" width="50" />                   |
+| `reward_crate_key_golden_carrot`  | Golden carrot key                | <img src="img/game_objects/consumable/reward_crate_key_golden_carrot.png" width="50" />  |
+| `reward_crate_golden_carrot`      | Golden carrot chest              | <img src="img/game_objects/consumable/reward_crate_golden_carrot.png" width="50" />      |
+| `golden_pumpkin`                  | Golden pumpkin                   | <img src="img/game_objects/consumable/golden_pumpkin.png" width="50" />                  |
+| `reward_crate_key_golden_pumpkin` | Golden pumpkin key               | <img src="img/game_objects/consumable/reward_crate_key_golden_pumpkin.png" width="50" /> |
+| `reward_crate_golden_pumpkin`     | Golden pumpkin chest             | <img src="img/game_objects/consumable/reward_crate_golden_pumpkin.png" width="50" />     |
+| `reward_crate_key_jingleballs`    | Jingleballs key                  | <img src="img/game_objects/consumable/reward_crate_key_jingleballs.png" width="50" />    |
+| `reward_crate_jingleballs`        | Jingleballs chest                | <img src="img/game_objects/consumable/reward_crate_jingleballs.png" width="50" />        |
 
 
 ### Decoration
