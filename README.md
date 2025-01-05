@@ -37,7 +37,7 @@ Even if these parts change depending on the method, the beginning remains the sa
 Function.prototype.constructor = function() {};
 ```
 - Click on the `Resume script execution` button *(see image below) (it's the blue button)*
-<img src="img/readme_screenshot/FMV_1.png" width="200">
+<img src="img/readme_screenshot/FMV_1.png" width="100">
 
 - In the **SOURCE** tab, find the file named main.js located at `top/1187.discordsays.com/1187.discordsays.com/main.1401.js` *(see image below)*
 <img src="img/readme_screenshot/FMV_2.png" width="300">
@@ -191,90 +191,90 @@ this['_forc' + 'edLoo' + 't']['lengt' + 'h']
 ### Decoration
 #### Farm
 
-| Parameter                   | Description     | Image                                                                                        |
-| :-------------------------- | :-------------- | :------------------------------------------------------------------------------------------- |
-| `decorative_barn`           | Barn            | ![decorative_barn](img/game_objects/decoration/farm/decorative_barn.png)                     |
-| `decorative_birdshouse`     | Birdshouse      | ![decorative_birdshouse](img/game_objects/decoration/farm/decorative_birdshouse.png)         |
-| `decorative_chickencoop`    | Chickencoop     | ![decorative_chickencoop](img/game_objects/decoration/farm/decorative_chickencoop.png)       |
-| `decorative_doghouse`       | Doghouse        | ![decorative_doghouse](img/game_objects/decoration/farm/decorative_doghouse.png)             |
-| `decorative_farmhouse`      | Farmhouse       | ![decorative_farmhouse](img/game_objects/decoration/farm/decorative_farmhouse.png)           |
-| `decorative_feedingtrough`  | Feeding Trough  | ![decorative_feedingtrough](img/game_objects/decoration/farm/decorative_feedingtrough.png)   |
-| `decorative_flowerpots`     | Flowerpots      | ![decorative_flowerpots](img/game_objects/decoration/farm/decorative_flowerpots.png)         |
-| `decorative_fountain`       | Fountain        | ![decorative_fountain](img/game_objects/decoration/farm/decorative_fountain.png)             |
-| `decorative_haywagon`       | Haywagon        | ![decorative_haywagon](img/game_objects/decoration/farm/decorative_haywagon.png)             |
-| `decorative_lamppost`       | Lamppost        | ![decorative_lamppost](img/game_objects/decoration/farm/decorative_lamppost.png)             |
-| `decorative_milktank`       | Milktank        | ![decorative_milktank](img/game_objects/decoration/farm/decorative_milktank.png)             |
-| `decorative_picknicktable`  | Picnic Table    | ![decorative_picknicktable](img/game_objects/decoration/farm/decorative_picknicktable.png)   |
-| `decorative_shed`           | Shed            | ![decorative_shed](img/game_objects/decoration/farm/decorative_shed.png)                     |
-| `decorative_silo`           | Silo            | ![decorative_silo](img/game_objects/decoration/farm/decorative_silo.png)                     |
-| `decorative_stoneflowerpot` | Stone Flowerpot | ![decorative_stoneflowerpot](img/game_objects/decoration/farm/decorative_stoneflowerpot.png) |
-| `decorative_toilet`         | Toilet          | ![decorative_toilet](img/game_objects/decoration/farm/decorative_toilet.png)                 |
-| `decorative_watertower`     | Water Tower     | ![decorative_watertower](img/game_objects/decoration/farm/decorative_watertower.png)         |
-| `decorative_well`           | Well            | ![decorative_well](img/game_objects/decoration/farm/decorative_well.png)                     |
-| `decorative_windmill`       | Windmill        | ![decorative_windmill](img/game_objects/decoration/farm/decorative_windmill.png)             |
+| Parameter                   | Description     | Image                                                                                       |
+| :-------------------------- | :-------------- | :------------------------------------------------------------------------------------------ |
+| `decorative_barn`           | Barn            | <img src="img/game_objects/decoration/farm/decorative_barn.png" width="100" />              |
+| `decorative_birdshouse`     | Birdshouse      | <img src="img/game_objects/decoration/farm/decorative_birdshouse.png" width="100" />        |
+| `decorative_chickencoop`    | Chickencoop     | <img src="img/game_objects/decoration/farm/decorative_chickencoop.png" width="100" />       |
+| `decorative_doghouse`       | Doghouse        | <img src="img/game_objects/decoration/farm/decorative_doghouse.png" width="100" />          |
+| `decorative_farmhouse`      | Farmhouse       | <img src="img/game_objects/decoration/farm/decorative_farmhouse.png" width="100" />         |
+| `decorative_feedingtrough`  | Feeding Trough  | <img src="img/game_objects/decoration/farm/decorative_feedingtrough.png" width="100" />     |
+| `decorative_flowerpots`     | Flowerpots      | <img src="img/game_objects/decoration/farm/decorative_flowerpots.png" width="100" />        |
+| `decorative_fountain`       | Fountain        | <img src="img/game_objects/decoration/farm/decorative_fountain.png" width="100" />          |
+| `decorative_haywagon`       | Haywagon        | <img src="img/game_objects/decoration/farm/decorative_haywagon.png" width="100" />          |
+| `decorative_lamppost`       | Lamppost        | <img src="img/game_objects/decoration/farm/decorative_lamppost.png" width="100" />          |
+| `decorative_milktank`       | Milktank        | <img src="img/game_objects/decoration/farm/decorative_milktank.png" width="100" />          |
+| `decorative_picknicktable`  | Picnic Table    | <img src="img/game_objects/decoration/farm/decorative_picknicktable.png" width="100" />     |
+| `decorative_shed`           | Shed            | <img src="img/game_objects/decoration/farm/decorative_shed.png" width="100" />              |
+| `decorative_silo`           | Silo            | <img src="img/game_objects/decoration/farm/decorative_silo.png" width="100" />              |
+| `decorative_stoneflowerpot` | Stone Flowerpot | <img src="img/game_objects/decoration/farm/decorative_stoneflowerpot.png" width="100" />    |
+| `decorative_toilet`         | Toilet          | <img src="img/game_objects/decoration/farm/decorative_toilet.png" width="100" />            |
+| `decorative_watertower`     | Water Tower     | <img src="img/game_objects/decoration/farm/decorative_watertower.png" width="100" />        |
+| `decorative_well`           | Well            | <img src="img/game_objects/decoration/farm/decorative_well.png" width="100" />              |
+| `decorative_windmill`       | Windmill        | <img src="img/game_objects/decoration/farm/decorative_windmill.png" width="100" />          |
 
 #### Halloween
 
-| Parameter                              | Description         | Image                                                                                                                     |
-| :------------------------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------ |
-| `decorative_halloween_blackcat`        | BlackCat            | ![decorative_halloween_blackcat](img/game_objects/decoration/halloween/decorative_halloween_blackcat.png)                 |
-| `decorative_halloween_cauldron`        | Cauldron            | ![decorative_halloween_cauldron](img/game_objects/decoration/halloween/decorative_halloween_cauldron.png)                 |
-| `decorative_halloween_ghosts`          | Ghosts              | ![decorative_halloween_ghosts](img/game_objects/decoration/halloween/decorative_halloween_ghosts.png)                     |
-| `decorative_halloween_grandfatherclock`| Grandfather Clock   | ![decorative_halloween_grandfatherclock](img/game_objects/decoration/halloween/decorative_halloween_grandfatherclock.png) |
-| `decorative_halloween_grave01`         | Grave 01            | ![decorative_halloween_grave01](img/game_objects/decoration/halloween/decorative_halloween_grave01.png)                   |
-| `decorative_halloween_grave02`         | Grave 02            | ![decorative_halloween_grave02](img/game_objects/decoration/halloween/decorative_halloween_grave02.png)                   |
-| `decorative_halloween_graveyard`       | Graveyard           | ![decorative_halloween_graveyard](img/game_objects/decoration/halloween/decorative_halloween_graveyard.png)               |
-| `decorative_halloween_hauntedhouse`    | Haunted House       | ![decorative_halloween_hauntedhouse](img/game_objects/decoration/halloween/decorative_halloween_hauntedhouse.png)         |
-| `decorative_halloween_pumpkinpatchbig` | Pumpkin Patch (Big) | ![decorative_halloween_pumpkinpatchbig](img/game_objects/decoration/halloween/decorative_halloween_pumpkinpatchbig.png)   |
-| `decorative_halloween_pumpkins01`      | Pumpkins 01         | ![decorative_halloween_pumpkins01](img/game_objects/decoration/halloween/decorative_halloween_pumpkins01.png)             |
-| `decorative_halloween_pumpkins02`      | Pumpkins 02         | ![decorative_halloween_pumpkins02](img/game_objects/decoration/halloween/decorative_halloween_pumpkins02.png)             |
-| `decorative_halloween_pumpkins03`      | Pumpkins 03         | ![decorative_halloween_pumpkins03](img/game_objects/decoration/halloween/decorative_halloween_pumpkins03.png)             |
-| `decorative_halloween_pumpkins04`      | Pumpkins 04         | ![decorative_halloween_pumpkins04](img/game_objects/decoration/halloween/decorative_halloween_pumpkins04.png)             |
-| `decorative_halloween_skeletonbench`   | Skeleton Bench      | ![decorative_halloween_skeletonbench](img/game_objects/decoration/halloween/decorative_halloween_skeletonbench.png)       |
-| `decorative_halloween_skeletoncarousel`| Skeleton Carousel   | ![decorative_halloween_skeletoncarousel](img/game_objects/decoration/halloween/decorative_halloween_skeletoncarousel.png) |
-| `decorative_halloween_skeletonpicnic`  | Skeleton Picnic     | ![decorative_halloween_skeletonpicnic](img/game_objects/decoration/halloween/decorative_halloween_skeletonpicnic.png)     |
-| `decorative_halloween_skullaltar`      | Skull Altar         | ![decorative_halloween_skullaltar](img/game_objects/decoration/halloween/decorative_halloween_skullaltar.png)             |
-| `decorative_halloween_treeface`        | Tree Face           | ![decorative_halloween_treeface](img/game_objects/decoration/halloween/decorative_halloween_treeface.png)                 |
-| `decorative_halloween_well`            | Well                | ![decorative_halloween_well](img/game_objects/decoration/halloween/decorative_halloween_well.png)                         |
+| Parameter                              | Description         | Image                                                                                                        |
+| :------------------------------------- | :------------------ | :----------------------------------------------------------------------------------------------------------- |
+| `decorative_halloween_blackcat`        | BlackCat            | <img src="img/game_objects/decoration/halloween/decorative_halloween_blackcat.png" width="100" />            |
+| `decorative_halloween_cauldron`        | Cauldron            | <img src="img/game_objects/decoration/halloween/decorative_halloween_cauldron.png" width="100" />            |
+| `decorative_halloween_ghosts`          | Ghosts              | <img src="img/game_objects/decoration/halloween/decorative_halloween_ghosts.png" width="100" />              |
+| `decorative_halloween_grandfatherclock`| Grandfather Clock   | <img src="img/game_objects/decoration/halloween/decorative_halloween_grandfatherclock.png" width="100" />    |
+| `decorative_halloween_grave01`         | Grave 01            | <img src="img/game_objects/decoration/halloween/decorative_halloween_grave01.png" width="100" />             |
+| `decorative_halloween_grave02`         | Grave 02            | <img src="img/game_objects/decoration/halloween/decorative_halloween_grave02.png" width="100" />             |
+| `decorative_halloween_graveyard`       | Graveyard           | <img src="img/game_objects/decoration/halloween/decorative_halloween_graveyard.png" width="100" />           |
+| `decorative_halloween_hauntedhouse`    | Haunted House       | <img src="img/game_objects/decoration/halloween/decorative_halloween_hauntedhouse.png" width="100" />        |
+| `decorative_halloween_pumpkinpatchbig` | Pumpkin Patch (Big) | <img src="img/game_objects/decoration/halloween/decorative_halloween_pumpkinpatchbig.png" width="100" />     |
+| `decorative_halloween_pumpkins01`      | Pumpkins 01         | <img src="img/game_objects/decoration/halloween/decorative_halloween_pumpkins01.png" width="100" />          |
+| `decorative_halloween_pumpkins02`      | Pumpkins 02         | <img src="img/game_objects/decoration/halloween/decorative_halloween_pumpkins02.png" width="100" />          |
+| `decorative_halloween_pumpkins03`      | Pumpkins 03         | <img src="img/game_objects/decoration/halloween/decorative_halloween_pumpkins03.png" width="100" />          |
+| `decorative_halloween_pumpkins04`      | Pumpkins 04         | <img src="img/game_objects/decoration/halloween/decorative_halloween_pumpkins04.png" width="100" />          |
+| `decorative_halloween_skeletonbench`   | Skeleton Bench      | <img src="img/game_objects/decoration/halloween/decorative_halloween_skeletonbench.png" width="100" />       |
+| `decorative_halloween_skeletoncarousel`| Skeleton Carousel   | <img src="img/game_objects/decoration/halloween/decorative_halloween_skeletoncarousel.png" width="100" />    |
+| `decorative_halloween_skeletonpicnic`  | Skeleton Picnic     | <img src="img/game_objects/decoration/halloween/decorative_halloween_skeletonpicnic.png" width="100" />      |
+| `decorative_halloween_skullaltar`      | Skull Altar         | <img src="img/game_objects/decoration/halloween/decorative_halloween_skullaltar.png" width="100" />          |
+| `decorative_halloween_treeface`        | Tree Face           | <img src="img/game_objects/decoration/halloween/decorative_halloween_treeface.png" width="100" />            |
+| `decorative_halloween_well`            | Well                | <img src="img/game_objects/decoration/halloween/decorative_halloween_well.png" width="100" />                |
 
 #### Christmas
 
 | Parameter                                    | Description           | Image                                                                                                                               |
 | :------------------------------------------- | :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| `decorative_christmas_candygate`             | CandyGate             | ![decorative_christmas_candygate](img/game_objects/decoration/christmas/decorative_christmas_candygate.png)                         |
-| `decorative_christmas_elfmail`               | ElfMail               | ![decorative_christmas_elfmail](img/game_objects/decoration/christmas/decorative_christmas_elfmail.png)                             |
-| `decorative_christmas_elfteddy`              | ElfTeddy              | ![decorative_christmas_elfteddy](img/game_objects/decoration/christmas/decorative_christmas_elfteddy.png)                           |
-| `decorative_christmas_elftrain`              | ElfTrain              | ![decorative_christmas_elftrain](img/game_objects/decoration/christmas/decorative_christmas_elftrain.png)                           |
-| `decorative_christmas_fireplace`             | Fireplace             | ![decorative_christmas_fireplace](img/game_objects/decoration/christmas/decorative_christmas_fireplace.png)                         |
-| `decorative_christmas_gift01`                | Gift 01               | ![decorative_christmas_gift01](img/game_objects/decoration/christmas/decorative_christmas_gift01.png)                               |
-| `decorative_christmas_gift02`                | Gift 02               | ![decorative_christmas_gift02](img/game_objects/decoration/christmas/decorative_christmas_gift02.png)                               |
-| `decorative_christmas_gift03`                | Gift 03               | ![decorative_christmas_gift03](img/game_objects/decoration/christmas/decorative_christmas_gift03.png)                               |
-| `decorative_christmas_gingerbell`            | Gingerbell            | ![decorative_christmas_gingerbell](img/game_objects/decoration/christmas/decorative_christmas_gingerbell.png)                       |
-| `decorative_christmas_gingerbreadhouse`      | GingerbreadHouse      | ![decorative_christmas_gingerbreadhouse](img/game_objects/decoration/christmas/decorative_christmas_gingerbreadhouse.png)           |
-| `decorative_christmas_gingerbreadhousesmall` | GingerbreadHouseSmall | ![decorative_christmas_gingerbreadhousesmall](img/game_objects/decoration/christmas/decorative_christmas_gingerbreadhousesmall.png) |
-| `decorative_christmas_gingerbreadsnow`       | GingerbreadSnow       | ![decorative_christmas_gingerbreadsnow](img/game_objects/decoration/christmas/decorative_christmas_gingerbreadsnow.png)             |
-| `decorative_christmas_nutcrackerv`           | Nutcracker            | ![decorative_christmas_nutcracker](img/game_objects/decoration/christmas/decorative_christmas_nutcracker.png)                       |
-| `decorative_christmas_santagift`             | SantaGift             | ![decorative_christmas_santagift](img/game_objects/decoration/christmas/decorative_christmas_santagift.png)                         |
-| `decorative_christmas_santamail`             | SantaMail             | ![decorative_christmas_santamail](img/game_objects/decoration/christmas/decorative_christmas_santamail.png)                         |
-| `decorative_christmas_sleigh`                | Sleigh                | ![decorative_christmas_sleigh](img/game_objects/decoration/christmas/decorative_christmas_sleigh.png)                               |
-| `decorative_christmas_snowcaroling`          | SnowCaroling          | ![decorative_christmas_snowcaroling](img/game_objects/decoration/christmas/decorative_christmas_snowcaroling.png)                   |
-| `decorative_christmas_snowdinner`            | SnowDinner            | ![decorative_christmas_snowdinner](img/game_objects/decoration/christmas/decorative_christmas_snowdinner.png)                       |
-| `decorative_christmas_snowfight`             | SnowFight             | ![decorative_christmas_snowfight](img/game_objects/decoration/christmas/decorative_christmas_snowfight.png)                         |
-| `decorative_christmas_snowgifting`           | SnowGifting           | ![decorative_christmas_snowgifting](img/game_objects/decoration/christmas/decorative_christmas_snowgifting.png)                     |
-| `decorative_christmas_snowglobe`             | SnowGlobe             | ![decorative_christmas_snowglobe](img/game_objects/decoration/christmas/decorative_christmas_snowglobe.png)                         |
-| `decorative_christmas_snowjello`             | SnowJello             | ![decorative_christmas_snowjello](img/game_objects/decoration/christmas/decorative_christmas_snowjello.png)                         |
-| `decorative_christmas_snowlantern`           | SnowLantern           | ![decorative_christmas_snowlantern](img/game_objects/decoration/christmas/decorative_christmas_snowlantern.png)                     |
-| `decorative_christmas_snowreindeer`          | SnowReindeer          | ![decorative_christmas_snowreindeer](img/game_objects/decoration/christmas/decorative_christmas_snowreindeer.png)                   |
-| `decorative_christmas_snowtelescope`         | SnowTelescope         | ![decorative_christmas_snowtelescope](img/game_objects/decoration/christmas/decorative_christmas_snowtelescope.png)                 |
-| `decorative_christmas_treebig`               | TreeBig               | ![decorative_christmas_treebig](img/game_objects/decoration/christmas/decorative_christmas_treebig.png)                             |
-| `golden_christmas_tree_1`                    | GoldenTree 1          | ![golden_christmas_tree_1](img/game_objects/decoration/christmas/golden_christmas_tree_1.png)                                       |
-| `golden_christmas_tree_2`                    | GoldenTree 2          | ![golden_christmas_tree_2](img/game_objects/decoration/christmas/golden_christmas_tree_2.png)                                       |
-| `golden_christmas_tree_3`                    | GoldenTree 3          | ![golden_christmas_tree_3](img/game_objects/decoration/christmas/golden_christmas_tree_3.png)                                       |
-| `golden_christmas_tree_4`                    | GoldenTree 4          | ![golden_christmas_tree_4](img/game_objects/decoration/christmas/golden_christmas_tree_4.png)                                       |
-| `golden_jingleball_1`                        | GoldenJingleBall 1    | ![golden_jingleball_1](img/game_objects/decoration/christmas/golden_jingleball_1.png)                                               |
-| `golden_jingleball_2`                        | GoldenJingleBall 2    | ![golden_jingleball_2](img/game_objects/decoration/christmas/golden_jingleball_2.png)                                               |
-| `golden_jingleball_3`                        | GoldenJingleBall 3    | ![golden_jingleball_3](img/game_objects/decoration/christmas/golden_jingleball_3.png)                                               |
-| `golden_jingleball_4`                        | GoldenJingleBall 4    | ![golden_jingleball_4](img/game_objects/decoration/christmas/golden_jingleball_4.png)                                               |
+| `decorative_christmas_candygate`             | CandyGate             | <img src="img/game_objects/decoration/christmas/decorative_christmas_candygate.png" width="100" />                                  |
+| `decorative_christmas_elfmail`               | ElfMail               | <img src="img/game_objects/decoration/christmas/decorative_christmas_elfmail.png" width="100" />                                    |
+| `decorative_christmas_elfteddy`              | ElfTeddy              | <img src="img/game_objects/decoration/christmas/decorative_christmas_elfteddy.png" width="100" />                                   |
+| `decorative_christmas_elftrain`              | ElfTrain              | <img src="img/game_objects/decoration/christmas/decorative_christmas_elftrain.png" width="100" />                                   |
+| `decorative_christmas_fireplace`             | Fireplace             | <img src="img/game_objects/decoration/christmas/decorative_christmas_fireplace.png" width="100" />                                  |
+| `decorative_christmas_gift01`                | Gift 01               | <img src="img/game_objects/decoration/christmas/decorative_christmas_gift01.png" width="100" />                                     |
+| `decorative_christmas_gift02`                | Gift 02               | <img src="img/game_objects/decoration/christmas/decorative_christmas_gift02.png" width="100" />                                     |
+| `decorative_christmas_gift03`                | Gift 03               | <img src="img/game_objects/decoration/christmas/decorative_christmas_gift03.png" width="100" />                                     |
+| `decorative_christmas_gingerbell`            | Gingerbell            | <img src="img/game_objects/decoration/christmas/decorative_christmas_gingerbell.png" width="100" />                                 |
+| `decorative_christmas_gingerbreadhouse`      | GingerbreadHouse      | <img src="img/game_objects/decoration/christmas/decorative_christmas_gingerbreadhouse.png" width="100" />                           |
+| `decorative_christmas_gingerbreadhousesmall` | GingerbreadHouseSmall | <img src="img/game_objects/decoration/christmas/decorative_christmas_gingerbreadhousesmall.png" width="100" />                      |
+| `decorative_christmas_gingerbreadsnow`       | GingerbreadSnow       | <img src="img/game_objects/decoration/christmas/decorative_christmas_gingerbreadsnow.png" width="100" />                            |
+| `decorative_christmas_nutcracker`            | Nutcracker            | <img src="img/game_objects/decoration/christmas/decorative_christmas_nutcracker.png" width="100" />                                 |
+| `decorative_christmas_santagift`             | SantaGift             | <img src="img/game_objects/decoration/christmas/decorative_christmas_santagift.png" width="100" />                                  |
+| `decorative_christmas_santamail`             | SantaMail             | <img src="img/game_objects/decoration/christmas/decorative_christmas_santamail.png" width="100" />                                  |
+| `decorative_christmas_sleigh`                | Sleigh                | <img src="img/game_objects/decoration/christmas/decorative_christmas_sleigh.png" width="100" />                                     |
+| `decorative_christmas_snowcaroling`          | SnowCaroling          | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowcaroling.png" width="100" />                               |
+| `decorative_christmas_snowdinner`            | SnowDinner            | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowdinner.png" width="100" />                                 |
+| `decorative_christmas_snowfight`             | SnowFight             | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowfight.png" width="100" />                                  |
+| `decorative_christmas_snowgifting`           | SnowGifting           | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowgifting.png" width="100" />                                |
+| `decorative_christmas_snowglobe`             | SnowGlobe             | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowglobe.png" width="100" />                                  |
+| `decorative_christmas_snowjello`             | SnowJello             | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowjello.png" width="100" />                                  |
+| `decorative_christmas_snowlantern`           | SnowLantern           | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowlantern.png" width="100" />                                |
+| `decorative_christmas_snowreindeer`          | SnowReindeer          | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowreindeer.png" width="100" />                               |
+| `decorative_christmas_snowtelescope`         | SnowTelescope         | <img src="img/game_objects/decoration/christmas/decorative_christmas_snowtelescope.png" width="100" />                              |
+| `decorative_christmas_treebig`               | TreeBig               | <img src="img/game_objects/decoration/christmas/decorative_christmas_treebig.png" width="100" />                                    |
+| `golden_christmas_tree_1`                    | GoldenTree 1          | <img src="img/game_objects/decoration/christmas/golden_christmas_tree_1.png" width="100" />                                         |
+| `golden_christmas_tree_2`                    | GoldenTree 2          | <img src="img/game_objects/decoration/christmas/golden_christmas_tree_2.png" width="100" />                                         |
+| `golden_christmas_tree_3`                    | GoldenTree 3          | <img src="img/game_objects/decoration/christmas/golden_christmas_tree_3.png" width="100" />                                         |
+| `golden_christmas_tree_4`                    | GoldenTree 4          | <img src="img/game_objects/decoration/christmas/golden_christmas_tree_4.png" width="100" />                                         |
+| `golden_jingleball_1`                        | GoldenJingleBall 1    | <img src="img/game_objects/decoration/christmas/golden_jingleball_1.png" width="100" />                                             |
+| `golden_jingleball_2`                        | GoldenJingleBall 2    | <img src="img/game_objects/decoration/christmas/golden_jingleball_2.png" width="100" />                                             |
+| `golden_jingleball_3`                        | GoldenJingleBall 3    | <img src="img/game_objects/decoration/christmas/golden_jingleball_3.png" width="100" />                                             |
+| `golden_jingleball_4`                        | GoldenJingleBall 4    | <img src="img/game_objects/decoration/christmas/golden_jingleball_4.png" width="100" />                                             |
 </details>
 
 <details>
