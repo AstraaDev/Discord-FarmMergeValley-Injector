@@ -9,13 +9,12 @@
   These methods go against the rules of the game's developers, and waves of bans have already occurred. I am in no way responsible for your actions. Please use this tool with full knowledge of the risks involved.
 </p>
 
+---
 
 ## Disclaimer
+This script is potentially malicious and unethical. It can be used for malicious purposes, such as stealing user tokens, personal information, and other sensitive data. Using this script for malicious purposes without the user's consent is illegal and violates ethical guidelines. Do not use this script without proper authorization.
 
-|FMV Injector was made for Educational purposes   |
-|-------------------------------------------------|
-This project was created only for good purposes and personal use.
-By using this Tool, you agree that you hold responsibility and accountability of any consequences caused by your actions.
+---
 
 ## Features
 
@@ -25,9 +24,13 @@ By using this Tool, you agree that you hold responsibility and accountability of
 - [x] - [removeAllObstacles](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - remove all obstacles (trees and stones) from the map.
 - [x] - [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
 
+---
+
 ## Common part of each method
 Each of the methods described here works in the same way. The game needs to be “paused” at the right moment to access certain elements that are normally blocked. The differences between these methods are the information to be retrieved, the precise moment to break the script, the action to be taken to break the script, etc...
 Even if these parts change depending on the method, the beginning remains the same.
+
+---
 
 #### Setup
 - Launch of Farm Merge Valley on discord *(and never close it again until the end)*
@@ -43,6 +46,8 @@ Function.prototype.constructor = function() {};
 <img src="img/readme_screenshot/FMV_2.png" width="300">
 
 From now on, the next steps will depend on each method. Make sure you've followed exactly the steps described in this section before moving on.
+
+---
 
 ## [METHOD 1] : giveInventoryItem
 <details>
@@ -116,6 +121,8 @@ giveInventoryItem("item", amount);
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method, and `amount` with the amount you want.
 </details>
 
+---
+
 ## [METHOD 2] : spawnUpgradeCard
 <details>
 <summary>Click to expand the information</summary>
@@ -142,6 +149,8 @@ _0x5159f1['_forc' + 'edLoo' + 't'] = []
 - All you have to do now is click on the merged item in the game, and the upgrade card should appear.
 
 </details>
+
+---
 
 ## [METHOD 3] : spawnBubbledObject
 <details>
@@ -320,6 +329,8 @@ spawnBubbledObject("item");
 Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method.
 </details>
 
+---
+
 ## [METHOD 4] : removeAllObstacles
 <details>
 <summary>Click to expand the information</summary>
@@ -348,6 +359,8 @@ worldServices = this.services
 worldServices.world.getAllGameObjects().filter(x=>x.hasBehavior("hitpoints") && !x.hasBehavior("shovelable") && !x.hasBehavior("movable")).forEach(x=>worldServices.world.removeGameObject(x))
 ```
 </details>
+
+---
 
 ## [METHOD 5] : setLuckyMergeChance
 <details>
